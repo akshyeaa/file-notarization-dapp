@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+.notarization-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    /* font-size: 20px; */
+    background-color: #f8f9fa;
+
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: rgb(39, 22, 0);
+  }
+  
+  .notarization-title {
+    text-align: center;
+    color: #333;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .file-input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #646464;
+    width: 96%;
+    /* background-color: black; */
+
+  }
+
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .notarize-btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  .notarize-btn:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 8px 18px;
+
+  }
+
+  
+  .verify-btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .verify-btn:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 8px 18px;
+
+  }
+  
+  .result-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+  }
+  
+  .result-box h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+      
+  }
+  
+  .break-word {
+    margin-top: 20px;
+    word-break: break-all;
+  }
+  
